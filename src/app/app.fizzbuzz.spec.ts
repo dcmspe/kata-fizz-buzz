@@ -37,8 +37,6 @@ describe('FizzBuzz', () => {
 
   it('should make fizz', () => {
 
-    console.log("starting method");
-
     let fizzBuzz = new FizzBuzz();
 
     var value:number = 3;
@@ -48,8 +46,6 @@ describe('FizzBuzz', () => {
 
   it('should make buzz', () => {
 
-    console.log("starting method");
-
     let fizzBuzz = new FizzBuzz();
 
     var value:number = 5;
@@ -58,8 +54,6 @@ describe('FizzBuzz', () => {
   });
   
   it('should make fizbuzz', () => {
-
-    console.log("starting method");
 
     let fizzBuzz = new FizzBuzz();
 
