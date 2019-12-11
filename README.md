@@ -2,26 +2,26 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
 
-## Development server
+## Challenge Description:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Return an array containing the numbers from 1 to N, where N is the parametered value. N will never be less than 1 (in C#, N might be less then 1).
 
-## Code scaffolding
+C# ONLY: If N is smaller then or equal to 0, throw an ArgumentOutOfRangeException!
+Replace certain values however if any of the following conditions are met:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+If the value is a multiple of 3: use the value 'Fizz' instead
+If the value is a multiple of 5: use the value 'Buzz' instead
+If the value is a multiple of 3 & 5: use the value 'FizzBuzz' instead
 
-## Build
+## Instructions about how to run the project 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1 - Go to the root of the project
 
-## Running unit tests
+2 - Run `npm install`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3 - Run `ng test` and have fun
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Do not forget:
+- 1 The FIRST principle. Thes tests must be Fast, Independent, Repeatble and Timely (We Don't want unicord remmember de KISS principle).
+- 2 KISS is Key for the Success.
+- 3 Enjoy the challenge and Have Fun :)
