@@ -25,3 +25,10 @@ If the value is a multiple of 3 & 5: use the value 'FizzBuzz' instead
 - 1 The FIRST principle. Thes tests must be Fast, Independent, Repeatble and Timely (We Don't want unicord remmember de KISS principle).
 - 2 KISS is Key for the Success.
 - 3 Enjoy the challenge and Have Fun :)
+
+## Extra challenge
+
+If you have already finished the challenge, you can add the following features:
+
+- A number is fizz if it is divisible by 3 or if it has a 3 in it;
+- A number is buzz if it is divisible by 5 or if it has a 5 in it;
