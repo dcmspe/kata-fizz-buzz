@@ -4,15 +4,44 @@ The Purpose for this challenge is to teach TDD for newcomers and those who want 
 practice and craft their actual skills.
 ## Challenge Description:
 
-Return an array containing X numbers from 1 to N, where N is the parametrized value and X could be an array with any size. N must be greater than 0.
+Populate an arrau and returning other containing X numbers from 1 to N, where N is the parametrized value and X could be an array with any size. N must be greater than 0.
 
 If the element number of the array is less than 0 than you must throw an exception.
 
-Bellow you can find the constraints for our challenge
+#### Bellow you can find the constraints for our challenge:
 
 - If the value is a multiple of 3: use the value 'Fizz' instead
 - If the value is a multiple of 5: use the value 'Buzz' instead
 - If the value is a multiple of 3 & 5: use the value 'FizzBuzz' instead
+
+#### Sample output:
+
+``` java
+
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+
+... etc up to 1000
+
+```
 
 ## Instructions about how to run the project
 
