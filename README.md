@@ -1,27 +1,65 @@
 # KataFizBuzz
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
+The Purpose for this challenge is to teach TDD for newcomers and those who want to
+practice and craft their actual skills.
+## Challenge Description:
 
-## Development server
+Populate an arrau and returning other containing X numbers from 1 to N, where N is the parametrized value and X could be an array with any size. N must be greater than 0.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+If the element number of the array is less than 0 than you must throw an exception.
 
-## Code scaffolding
+#### Bellow you can find the constraints for our challenge:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- If the value is a multiple of 3: use the value 'Fizz' instead
+- If the value is a multiple of 5: use the value 'Buzz' instead
+- If the value is a multiple of 3 & 5: use the value 'FizzBuzz' instead
 
-## Build
+#### Sample output:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+``` java
 
-## Running unit tests
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+... etc up to 1000
 
-## Running end-to-end tests
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Instructions about how to run the project
 
-## Further help
+1. Go to the root of the project
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+2. Run `npm install`
+
+3. Run `ng test` and have fun
+
+*Do not forget:*
+1. 1 The FIRST principle. The tests must be Fast, Independent, Repeatable and Timely (We Don't want unicorn remember de KISS principle)
+2. KISS is Key for the Success
+3. Divide the problem into small pieces
+4. Enjoy the challenge and Have Fun :)
+
+## Extra challenge
+
+If you have already finished the challenge, you can add the following features:
+
+- A number is fizz if it is divisible by 3 or if it has a 3 in it;
+- A number is buzz if it is divisible by 5 or if it has a 5 in it;
